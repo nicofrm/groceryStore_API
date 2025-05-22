@@ -7,6 +7,6 @@ The API is available at https://simple-grocery-store-api.glitch.me/
 
 ### Endpoints
 
-GET status
+GET /status
   -  returns the status of the API. Status UP indicates that the API is running as expected.
     ![image](https://github.com/user-attachments/assets/e4771fc2-a09f-4d37-b397-dd9e45c3d230)
