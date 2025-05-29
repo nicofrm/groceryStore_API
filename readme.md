@@ -14,7 +14,9 @@ GET /status
 
  GET /products
  
-   -  
+   -  returns a list with all available products
+   - ![image](https://github.com/user-attachments/assets/c5bb32ac-39b5-4614-b96b-395f1c079518)
+
 
 
   Note**
