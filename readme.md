@@ -14,8 +14,7 @@ GET /status
 
  GET /products
  
- GET /products
-  - 
+   -  
 
 
   Note**
