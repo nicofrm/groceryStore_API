@@ -13,7 +13,7 @@ GET /status
 - status code $${\color{greenyellow}200 \space OK}$$ indicates a successful response
 
 
-GET /products
+**GET /products**
   - 
 
 
