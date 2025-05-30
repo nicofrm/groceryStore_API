@@ -34,12 +34,15 @@ GET /status
     ![image](https://github.com/user-attachments/assets/a495e4aa-6808-41e3-a28a-58a990290898)
     
     Case3:
+    
     ![image](https://github.com/user-attachments/assets/0b3aed32-5711-4705-a6ea-73d548f0f151)
     
     Case4:
+    
     ![image](https://github.com/user-attachments/assets/24254653-263f-4314-9464-dbdac1ca37d5)
     
     Case5:
+    
     ![image](https://github.com/user-attachments/assets/c50a53b0-c249-4706-825e-6738cd9e3375)
     
     Based on the above cases tested, we have identified a few possible bugs which would require immediate reporting to development team. 
