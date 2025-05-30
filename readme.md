@@ -19,10 +19,14 @@ GET /status
  GET /products
  
    -  returns a list with all available products
-   - ![image](https://github.com/user-attachments/assets/c5bb32ac-39b5-4614-b96b-395f1c079518)
+    ![image](https://github.com/user-attachments/assets/c5bb32ac-39b5-4614-b96b-395f1c079518)
+  - in API we can work with query parameters (which are case-sensitive) in order to have returned a list of specific products
+    ![image](https://github.com/user-attachments/assets/610087f5-031a-46e4-bdd4-5c399d76e52e)
+  - based on Note 2, if we create a parameter "name" and make a request we can notice that there are no changes in the response since "name" is not an accepted parameter.
 
 
 
   Note**
 1. Storing configuration in collection variables - variables are used to store the configurations
      - https://simple-grocery-store-api.glitch.me was saved in a variable {{baseUrl}}
+2. Based on API documentation we can see that parameters accepted by API are: category, results, available. 
