@@ -24,11 +24,13 @@ GET /status
     ![image](https://github.com/user-attachments/assets/610087f5-031a-46e4-bdd4-5c399d76e52e)
   - based on Note 2, if we create a parameter "name" and make a request we can notice that there are no changes in the response since "name" is not an accepted parameter.
   - further we will test the respone from API using query parameter "results". According to API documentation "results" is an integer and must be a number between 1 and 20. By default, only 20 products will be displayed.
+    
     Case1:
     
     ![image](https://github.com/user-attachments/assets/58b3a2ef-ba91-4c22-9a9b-fe694cc61fdd)
     
     Case2:
+
     ![image](https://github.com/user-attachments/assets/a495e4aa-6808-41e3-a28a-58a990290898)
     
     Case3:
