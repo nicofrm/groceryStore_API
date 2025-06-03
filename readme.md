@@ -47,7 +47,15 @@ GET /status
     
     Based on the above cases tested, we have identified a few possible bugs which would require immediate reporting to development team. 
 
+# Get a product
 
+GET /products/:productId
+
+![image](https://github.com/user-attachments/assets/4fcb4256-99c6-4744-89bc-38f13fc40007)
+
+  - returns a single product from the inventory, by specifying the productId value at the path variable filed
+
+    
   Note**
 1. Storing configuration in collection variables - variables are used to store the configurations
      - https://simple-grocery-store-api.glitch.me was saved in a variable {{baseUrl}}
