@@ -88,4 +88,5 @@ POST /carts
   Note**
 1. Storing configuration in collection variables - variables are used to store the configurations
      - https://simple-grocery-store-api.glitch.me was saved in a variable {{baseUrl}}
-2. Based on API documentation we can see that parameters accepted by API are: category, results, available. 
+2. Based on API documentation we can see that parameters accepted by API are: category, results, available.
+3. JSON has a key-value format, like "firstName": "Nico". Where "firstName" is the key and "Nico" is the value. 
