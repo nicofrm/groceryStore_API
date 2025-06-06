@@ -56,21 +56,24 @@ GET /products/:productId
 
   - returns a single product from the inventory, by specifying the productId value at the path variable filed
 
+## **Carts**
+
 ### Get a cart
 
 GET /carts/:cartId
+
 ![image](https://github.com/user-attachments/assets/dc2e072c-5bca-4cf8-a0bb-cea6eb530e4d)
 
   - returns a cart
 
-## Get cart items
+### Get cart items
 
 GET /carts/:cartId/items
 ![image](https://github.com/user-attachments/assets/4fd18ee7-1dcb-40d8-8bc1-4737ba893965)
 
   - returns the items in a cart
 
-## Create a new cart
+### Create a new cart
 
 POST /carts
 ![image](https://github.com/user-attachments/assets/2af32cee-11bd-47da-874d-3fb37bf15d1f)
