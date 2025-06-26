@@ -83,8 +83,16 @@ POST /carts
   - for creating a new cart, a POST request is used
   - creates a new cart and returns the id in the response body.
 
+### Add an item to cart
 
+GET {{baseUrl}}/carts/:cartId/items
 
+![image](https://github.com/user-attachments/assets/65d62920-93ec-4aab-9d94-34c5ee465889)
+
+  - allows the addition of items to an existing cart. Only one item can be added at a time.
+  - the request body needs to be in JSON format
+
+    
   Note**
 1. Storing configuration in collection variables - variables are used to store the configurations
      - https://simple-grocery-store-api.glitch.me was saved in a variable {{baseUrl}}
