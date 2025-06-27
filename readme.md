@@ -115,7 +115,9 @@ POST /api-clients
 ![image](https://github.com/user-attachments/assets/c3db1641-d575-4966-9692-af4f8696b9f6)
 
 
-  - the access token provided in the response body, needs to be stored in collation variables 
+  - the access token provided in the response body, needs to be stored in collection variables
+
+    
 
   Note**
 1. Storing configuration in collection variables - variables are used to store the configurations
