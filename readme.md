@@ -92,7 +92,31 @@ GET {{baseUrl}}/carts/:cartId/items
   - allows the addition of items to an existing cart. Only one item can be added at a time.
   - the request body needs to be in JSON format
 
+
+## API Authentication
+
+API authentication is the process of verifying the identity of a user or application attempting to access an API. It ensures that only authorized entities can interact with the API's resources, preventing unauthorized access, data breaches, and security vulnerabilities. 
+
+
+### Register a new API client
+
+POST /api-clients
+
+![image](https://github.com/user-attachments/assets/4133f084-f641-4cc5-932b-fa2345555a48)
+
+
+  - the request body needs to be in JSON format
+  - the response body will contain the access token 
+  - status code 201 Created - indicates that the client has been registered successfully
+  - staus code 400 Bad Request - indicates that the parameters provided are invalid
+  - 409 Conflict - indicated that an API client has already been registered with this email
+
     
+![image](https://github.com/user-attachments/assets/c3db1641-d575-4966-9692-af4f8696b9f6)
+
+
+  - the access token provided in the response body, needs to be stored in collation variables 
+
   Note**
 1. Storing configuration in collection variables - variables are used to store the configurations
      - https://simple-grocery-store-api.glitch.me was saved in a variable {{baseUrl}}
