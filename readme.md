@@ -117,6 +117,21 @@ POST /api-clients
 
   - the access token provided in the response body, needs to be stored in collection variables
 
+### Modify an item in the cart
+
+PATCH /carts/:cartId/items/:itemId
+
+![image](https://github.com/user-attachments/assets/2048b2cd-6a9e-4fd9-9567-e4a520283ae1)
+
+
+![image](https://github.com/user-attachments/assets/c3691b21-a621-46b8-a77a-e3a0ce929d74)
+
+  - **PATCH** allows modifying informetion about an existing item from the cart.
+    
+
+
+
+
     
 
   Note**
