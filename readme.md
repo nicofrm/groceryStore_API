@@ -161,7 +161,45 @@ DELETE /carts/:cartId/items/:itemId
 
 GET /orders
 
+![image](https://github.com/user-attachments/assets/eb40d10a-e244-42ae-a4ec-deef898037c0)
 
+
+  - returns all orders created by API client
+
+### Get a single order
+
+GET /order/:orderId
+
+![image](https://github.com/user-attachments/assets/0351c851-a0d0-4256-8513-ae4f5aa28013)
+
+  - returns a single order
+
+
+### Create a new order
+
+POST /orders
+
+![image](https://github.com/user-attachments/assets/ddfe317b-9384-45f5-bc02-f5c0f7529f06)
+
+
+  - once the order has been successfuly submitted, th ecart is deleted.
+
+### Update an order
+
+PATCH /orders/:orderId
+
+![image](https://github.com/user-attachments/assets/a8ba632a-657f-4bb6-9b7c-d828c004b139)
+
+
+
+### Delete an order
+
+DELETE /orders/:orderId
+
+![image](https://github.com/user-attachments/assets/77262808-2a04-4b6f-aead-8623107e9fe7)
+
+
+![image](https://github.com/user-attachments/assets/6974e974-b70f-4145-8ec1-4f7f1122c5d4)
 
 
   Note**
@@ -169,3 +207,4 @@ GET /orders
      - https://simple-grocery-store-api.glitch.me was saved in a variable {{baseUrl}}
 2. Based on API documentation we can see that parameters accepted by API are: category, results, available.
 3. JSON has a key-value format, like "firstName": "Nico". Where "firstName" is the key and "Nico" is the value. 
+4. Difference between PATCH and PUT: PUT is used to replace an entire resource with the provided data, while PATCH is used to apply partial updates to a resource, only modifying the specified fields
