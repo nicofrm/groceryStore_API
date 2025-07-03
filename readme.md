@@ -143,6 +143,19 @@ PUT /carts/:cartId/items/:itemId
 
   - **PUT** replaces an item in the cart
     
+### Delete an item in the cart
+
+DELETE /carts/:cartId/items/:itemId
+
+
+![image](https://github.com/user-attachments/assets/5caf57df-680e-4a22-9d1d-0691385fdea1)
+
+
+![image](https://github.com/user-attachments/assets/78d82c30-83fb-4222-9a70-8d0d4babc129)
+
+  - **DELETE** deletes an item from the cart
+
+    
 
   Note**
 1. Storing configuration in collection variables - variables are used to store the configurations
