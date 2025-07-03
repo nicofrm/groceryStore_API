@@ -126,12 +126,22 @@ PATCH /carts/:cartId/items/:itemId
 
 ![image](https://github.com/user-attachments/assets/c3691b21-a621-46b8-a77a-e3a0ce929d74)
 
-  - **PATCH** allows modifying informetion about an existing item from the cart.
+  - **PATCH** allows modifying information about an existing item from the cart.
     
 
 
+### Replace an item in the cart 
+
+PUT /carts/:cartId/items/:itemId
 
 
+![image](https://github.com/user-attachments/assets/0e17bc38-7865-4239-b0a7-56920033d2b0)
+
+
+![image](https://github.com/user-attachments/assets/acaa8282-20aa-4bdc-9527-5ce9ddb583f8)
+
+
+  - **PUT** replaces an item in the cart
     
 
   Note**
