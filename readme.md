@@ -156,6 +156,13 @@ DELETE /carts/:cartId/items/:itemId
   - **DELETE** deletes an item from the cart
 
     
+## **Orders**
+### Get all orders
+
+GET /orders
+
+
+
 
   Note**
 1. Storing configuration in collection variables - variables are used to store the configurations
